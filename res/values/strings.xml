@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 WIMM Labs Incorporated -->
+<resources>
+	<string name="app_name">Prefs Demo</string>
+	
+	<string name="facebook_header">Facebook</string>
+	<string name="facebook_username_label">Username</string>
+	<string name="facebook_user_id_label">User ID</string>
+	<string name="facebook_access_token_label">Access Token</string>
+	
+	<string name="instagram_header">Instagram</string>
+	<string name="instagram_username_label">Username</string>
+	<string name="instagram_user_id_label">User ID</string>
+	<string name="instagram_access_token_label">Access Token</string>
+	
+	<string name="twitter_header">Twitter</string>
+	<string name="twitter_username_label">Username</string>
+	<string name="twitter_user_id_label">User ID</string>
+	<string name="twitter_access_token_label">Access Token</string>
+	<string name="twitter_access_token_secret_label">Access Token Secret</string>
+	
+	<string name="location_header">Location/Address</string>
+	<string name="location_locality_label">Locality</string>
+	<string name="location_admin_area_label">Admin Area</string>
+	<string name="location_country_name_label">Country Name</string>
+	<string name="location_country_code_label">Country Code</string>
+	<string name="location_latitude_label">Latitude</string>
+	<string name="location_longitude_label">Longitude</string>
+	
+</resources>

@@ -1,0 +1,81 @@
+{
+  "title": "pane_title",
+  "groups": [
+    {
+      "title": "auth_group_title",
+      "preferences": [
+        {
+          "name": "my_facebook_auth",
+          "type": "oAuth",
+          "default": true,
+          "control": "facebookOAuth",
+          "oAuthSecret": "s",
+          "oAuthAppId": "i",
+          "oAuthScope": "read_stream,friends_photos,friends_photo_video_tags,user_photos,user_photo_video_tags,user_about_me,user_checkins,user_status,user_birthday,user_events,user_likes,friends_birthday,read_friendlists",
+          "title": "facebook_auth_title",
+          "description": "facebook_auth_description"
+        },
+        {
+          "name": "my_instagram_auth",
+          "type": "oAuth",
+          "default": true,
+          "control": "instagramOAuth",
+          "oAuthAppId": "i",
+          "oAuthScope": "comments relationships likes",
+          "title": "instagram_auth_title",
+          "description": "instagram_auth_description"
+        },
+        {
+          "name": "my_twitter_auth",
+          "type": "oAuth",
+          "default": true,
+          "control": "twitterOAuth",
+          "oAuthSecret": "s",
+          "oAuthAppId": "i",
+          "title": "twitter_auth_title",
+          "description": "twitter_auth_description"
+        }
+      ]
+    },
+    {
+      "title": "location_title",
+      "preferences": [
+        {
+          "name": "my_location",
+          "type": "location",
+          "control": "location",
+          "title": "my_location_title",
+          "default": {
+            "id": 103662,
+            "name": "Los Altos, CA, USA",
+            "longitude": "-122.11413",
+            "latitude": "37.38522"
+          },
+          "description": "my_location_description",
+          "dialogTitle": "my_location_dialog_title",
+          "buttonTitle": "my_location_button_title",
+          "dialogPrompt": "my_location_dialog_prompt"
+        }
+      ]
+    }
+  ],
+  "strings": {
+    "en": {
+      "pane_title": "Example OAuth Controls",
+      "auth_group_title": "Connect to These Services via OAuth",
+      "facebook_auth_title": "Your Facebook Account",
+      "facebook_auth_description": "Connect this application to your Facebook account by clicking the above button",
+      "instagram_auth_title": "Your Instagram Account",
+      "instagram_auth_description": "Connect this application to your Instagram account by clicking the above button",
+      "twitter_auth_title": "Your Twitter Account",
+      "twitter_auth_description": "Connect this application to your Twitter account by clicking the above button",
+      "location_title": "Location",
+      "my_location_title": "Location Control",
+      "my_location_description": "A location control for selecting a single city.",
+      "my_location_dialog_title": "Choose a new city",
+      "my_location_button_title": "Choose...",
+      "my_location_dialog_prompt": "Start typing in the field below to search for a city."
+    }
+  },
+  "appSlug": "oauthdemo"
+}

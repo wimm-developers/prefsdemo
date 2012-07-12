@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 WIMM Labs Incorporated -->
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+		
+		    <TextView
+		        style="@style/header"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/app_name" />
+		            
+		    
+		    
+            <TextView
+                style="@style/subheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/facebook_header" />
+
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/facebook_username_label" />
+            <TextView
+                android:id="@+id/facebook_username"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/facebook_user_id_label" />
+            <TextView
+                android:id="@+id/facebook_user_id"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/facebook_access_token_label" />
+            <TextView
+                android:id="@+id/facebook_access_token"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+		       
+            
+            
+            <TextView
+                style="@style/subheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instagram_header" />
+
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instagram_username_label" />
+            <TextView
+                android:id="@+id/instagram_username"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instagram_user_id_label" />
+            <TextView
+                android:id="@+id/instagram_user_id"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/instagram_access_token_label" />
+            <TextView
+                android:id="@+id/instagram_access_token"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            		            
+            
+            
+            <TextView
+                style="@style/subheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/twitter_header" />
+
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/twitter_username_label" />
+            <TextView
+                android:id="@+id/twitter_username"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/twitter_user_id_label" />
+            <TextView
+                android:id="@+id/twitter_user_id"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/twitter_access_token_label" />
+            <TextView
+                android:id="@+id/twitter_access_token"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/twitter_access_token_secret_label" />
+            <TextView
+                android:id="@+id/twitter_access_token_secret"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+            
+            
+            <TextView
+                style="@style/subheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location_header" />
+
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location_locality_label" />
+            <TextView
+                android:id="@+id/location_locality"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location_admin_area_label" />
+            <TextView
+                android:id="@+id/location_admin_area"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location_country_name_label" />
+            <TextView
+                android:id="@+id/location_country_name"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location_country_code_label" />
+            <TextView
+                android:id="@+id/location_country_code"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location_latitude_label" />
+            <TextView
+                android:id="@+id/location_latitude"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+            <TextView
+                style="@style/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/location_longitude_label" />
+            <TextView
+                android:id="@+id/location_longitude"
+                style="@style/value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

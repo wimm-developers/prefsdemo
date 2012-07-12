@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 WIMM Labs Incorporated -->
+<resources>
+    <style name="header">
+        <item name="android:textSize">20dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="subheader">
+        <item name="android:textSize">16dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="label">
+        <item name="android:textSize">14dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="value">
+        <item name="android:textSize">14dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">2dp</item>
+    </style>
+</resources>
